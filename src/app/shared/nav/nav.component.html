@@ -1,0 +1,52 @@
+<header class="sticky-top">
+    <div class="logo_area">
+      <a href="">
+              <img src="../../../assets/images/image7.png" width="50px" alt=""/><br />
+              <a style="color: #d95663">Propty</a>
+              <a style="color: var(--text-color)">Co.</a>
+      </a>
+    </div>
+  
+    <nav>
+      <div class="row">
+<div class="col-10">
+        <ul>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Learn</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">My Propfolio</a></li>
+        <li><a href="">Sell my property </a></li>
+      <li><a href="">Marketplace</a></li>
+        
+      
+      </ul>
+      </div>
+     
+      <div class="col-2" >
+        <img style="margin-top: 20px;margin-left: 40px;cursor: pointer;" src=  "{{url}}" height="60px" alt=""  (click)="switchTheme()"/>
+      </div>
+      </div>
+      
+      
+    </nav>
+  
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a href="">About Us</a></li>
+        <li><a href="">Learn</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">My Propfolio</a></li>
+        <li><a href="">Sell my property </a></li>
+  
+        <li><a href="">Marketplace</a></li>
+        <li>
+            <img style="cursor: pointer;" src=  "{{url}}" height="60px" alt=""  (click)="switchTheme()"
+            />
+        </li>
+      </ul>
+    </div>
+  </header>
+  
