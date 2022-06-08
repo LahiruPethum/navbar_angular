@@ -1,0 +1,10 @@
+:root{
+    --primary-color:black;
+    --secondary-color:white;
+
+}
+
+ .dark-theme{
+    --primary-color:white;
+    --secondary-color:black;
+ }

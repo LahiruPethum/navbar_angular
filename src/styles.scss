@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+.light-theme {
+    --background-color: #fff;
+    --text-color: #000;
+    --box-color: #fff;
+    --button-color: #fff;
+  
+    --box-shadow: 0 15px 25px rgba(0, 0, 0, .1);
+  }
+  
+  .dark-theme {
+    --background-color: #000;
+    --text-color: #fff;
+    --box-color: #000;
+    --button-color: #000;
+  }
+
+  .mine {
+    
+   
+    background-color: var(--background-color);
+
+    transition: all .3s ease-in-out;
+  }
+
+  
